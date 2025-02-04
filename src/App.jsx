@@ -51,6 +51,26 @@ style={{backgroundColor : color }}
       className="outline-none px-4 py-1 rounded-full shadow-lg"
       style={{backgroundColor:"grey"}}
       >Grey</button>
+<button
+     onClick={()=>setColor("lavender")}
+      className="outline-none px-4 py-1 rounded-full shadow-lg"
+      style={{backgroundColor:"lavender"}}
+      >Lavender</button>
+<button
+     onClick={()=>setColor("brown")}
+      className="outline-none px-4 py-1 rounded-full shadow-lg"
+      style={{backgroundColor:"brown"}}
+      >Brown</button>
+<button
+     onClick={()=>setColor("olive")}
+      className="outline-none px-4 py-1 rounded-full shadow-lg"
+      style={{backgroundColor:"olive"}}
+      >Olive</button>
+<button
+     onClick={()=>setColor("teal")}
+      className="outline-none px-4 py-1 rounded-full shadow-lg"
+      style={{backgroundColor:"teal"}}
+      >Teal</button>
     </div>
   </div>
 </div>
